@@ -1,0 +1,270 @@
+/* 全局控制 */
+a{text-decoration: none;list-style: none;}
+* {margin: 0;padding: 0;list-style: none;}
+body{ color: #9e9e9e; font:12px/20px "Microsoft Yahei", arial,sans-serif; background: #f0f0f0 ; font-weight: normal; width:100%;height:100%;}
+/* 重置默认样式 */
+a{text-decoration: none;  outline:none;}
+ul,ol{list-style:none;}
+/* 设置网页样式 */
+/* 标题: */
+#contioner #header{
+    width:100%;
+    height:7.5%;
+}
+#header{
+    width:100%;
+    height:48px;
+    background-color:#118840;
+    color:#fff;
+}
+/* 标题:————定位 */
+#header a{
+    width:100%;
+    color:#fff;
+}
+/* 标题:————二维码 */
+#header .ewm{
+    width: 32px;
+    height: 32px;
+    z-index: 11;
+    background: url(../images/erwm.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    margin: 0 auto;
+    top: 19%;
+    left: 82%;
+    buttom: 0%;
+    right: 0%;
+}
+/* 定位-城市 */
+
+#header a .city{
+    font-size:12px;
+    text-align:center;
+}
+/* 标题:————搜索框 */
+#header #search{
+    position:absolute;
+    top: 5%;
+    left: 20%;
+    buttom:0%;
+    /* z-index: 11; */
+}
+#header #search input{
+    width:80%;
+    height:34px;
+    border-radius: 18px;
+    background:rgba(225,225,225,0.6);
+    color:#fff;
+}
+#header #search .mui-icon-search{
+    position:absolute;
+    top: 9%;
+    left: 5%;
+    buttom:0%;
+}
+/* 中间部分start---------------------------------------------------------------------------------------------------------------------------- */
+#contioner #content{
+   width:100%;
+   height:85%; 
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* 轮播 */
+#content #slider{
+    width:100%;
+    height:30%;
+}
+#slider #lb{
+    width:100%;
+    height:100%;
+}
+#slider #lb #lbt{
+    width:100%;
+    height:100%;
+}
+#slider #lb #lbt a{
+    width:100%;
+    height:100%;
+}
+#slider #lb #lbt a img{
+    width:100%;
+    height:100%;
+}
+#slider #dian .mui-indicator{
+    background-color:#fff;
+}
+#slider #dian .mui-active{
+    background-color:#118840;
+}
+/* 轮播end */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* 图标分类start */
+#content #tubiao{
+    width:100%;
+    height:30%;
+    margin-top:2%;
+    background:#fff;
+}
+#tubiao li{
+    width:25%;
+    height:50%;
+    line-height:50%;
+    margin:0 auto;
+    border:0px ;
+}
+/* #tubiao li a{
+    position:absolute;
+    top:-2%;
+    left:0;
+    buttom:0%;
+    right:0%;
+} */ 
+#tubiao .mui-icon-home:before{
+   width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#fff;
+    background-color:#008000;    
+}
+#tubiao .mui-icon-map:before{
+    width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#fff;
+    background-color:#348bcc;
+}
+#tubiao .mui-icon-spinner-cycle:before{
+    width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#fff;
+    background-color:#e4604a;
+}
+#tubiao .mui-icon-minus:before{
+    width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#fff;
+    background-color:#8f62a7;
+}
+#tubiao .mui-icon-chat:before{
+    width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#fff;
+    background-color:#ee7631;
+}
+#tubiao .mui-icon-compose:before{
+   width:100%;
+   height: 100%;
+   line-height:100%;;
+    border-radius:50%;
+    color:#fff;
+    background-color:#ebb817;
+}
+#tubiao .mui-icon-help:before{
+    width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#fff;
+    background-color:#358bcb;
+}
+#tubiao .mui-icon-location:before{
+   width:100%;
+   height: 100%;
+   line-height:100%;
+    border-radius:50%;
+    color:#fff;
+    background-color:#a4c523;
+}
+/* 图标分类end */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* 图文表格start */
+#content #tuwen{
+    width:100%;
+    height:39%;
+    margin-top:2%;
+    background:#fff;
+    }
+#tuwen li{
+    width:16%;
+    height:40%;
+    border-right: 0px;
+    border-bottom:0px;
+    padding-left:9px;
+     left:2%;
+}
+#tuwen li a{
+    width:100%;
+    height:100%;
+}
+/* #tuwen li a img{
+    width:100%;
+    height:100%;
+} */
+#tuwen li a div{
+    width:100%;
+    height:20%;
+}
+/* #tuwen li a{
+    width:100%;
+    height:85px;
+} */
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+    margin: 0;
+    padding: 0px 15px;
+    vertical-align: top;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+#tuwen h4{
+    width:100%;
+    height:8%;
+    color:#000;
+    border-left:4px solid #008000;
+    margin-left:15px;
+     margin-top:10px;
+    text-align:left;
+}
+/* 图文表格end */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* 底部start */
+#contioner #footer{
+    width:100%;
+    height:7.5%;
+}
+#footer{
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height:10%;
+    height: 58px;
+    padding: 0;
+    table-layout: fixed;
+    border-top: 0;
+    border-bottom: 0;
+    webkit-box-shadow: 0 0 1px rgba(225, 225, 225, .85);
+    box-shadow: 0 0 1px rgba(225, 225, 225, .85);
+    background-color:#eeeeed;
+}
+#footer .mui-active{
+    color:#118840;
+}
+/* 底部end */
+.mui-media-body {
+    font-size: 14px;
+    line-height: 14px;
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 8px;
+    text-overflow: ellipsis;
+    color: #333;
+}
