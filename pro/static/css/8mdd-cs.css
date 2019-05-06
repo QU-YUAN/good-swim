@@ -1,0 +1,520 @@
+/* 标题: */
+#contioner #header{
+    width:100%;
+    height:45%;
+}
+/* 标题:————定位 */
+#header .glyphicon-menu-left{
+    width:15%;
+    color:#fff;
+    background-color: rgba(225,225,225,0);
+    border-color:  rgba(225,225,225,0);
+    text-shadow: 0 1px 0  rgba(225,225,225,0);
+    font-size:20px;
+    position:absolute;
+    top:5%;
+    left:0%;
+    
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+#header #img1{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+}
+#header #img1 img{
+    width:100%;
+    height:100%;
+}
+#header #img2{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 35%;
+    left:0%;
+}
+#header #img2 h4{
+    width: 100%;
+    height: 30%;
+    font-size:16px;
+    color:#fff;
+}
+#header #img2 p{
+    width: 100%;
+    height: 70%;
+    font-size:12px;
+    color:#fff;
+}
+#header #img3{
+    width:100%;
+    height:50%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    text-align:center;
+    padding-top:1%;
+}
+#header #img3 p{
+    width:49%;
+    height:28%;
+    line-height:28%;
+    display:inline-block;
+    color:#fff;
+}
+#header #img3 .p1{
+    width:10%;
+    height:28%;
+    line-height:28%;
+    position: absolute;
+    top: 5%;
+    left: 32%;
+}
+#header #img3 .p2{
+    width:10%;
+    height:28%;
+    line-height:28%;
+    border-radius: 18px;
+    background:rgba(0,0,0,0.6);
+    position: absolute;
+    top: -7%;
+    left: 54%;
+    text-align:center;
+    margin:0 auto;
+    positipon:relative;
+    font-weight:600;
+}
+#header #img3 .p2 p{
+    position: absolute;
+    left: 20%;
+    margin-top:16%;
+}
+#header #img3 #tubiao{
+    width: 100%;
+    height: 57%;
+    background:rgba(0,0,0,0.3);
+    position: absolute;
+    top: 44%;
+    left: 0%;
+    font-weight:600;
+    border-top: 0px solid #eee;
+}
+/* #header #img3 .p3 p:nth-of-type(1){
+    position: absolute;
+    top:43%;
+    left: 0%;
+}
+#header #img3 .p3 p:nth-of-type(2){
+    position: absolute;
+    top:43%;
+    left: 50%;
+} */
+#header #img3 #tubiao li{
+    width:25%;
+    height:80%;
+    line-height:80%;
+    margin-top:2%;
+    border-right: 1px solid #eee;
+    
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+    margin: 0;
+    padding: 11px 15px;
+    vertical-align: top;
+    border-right: 0px solid #eee;
+    border-bottom: 0px solid #eee;
+}
+#tubiao span{
+    width:100%;
+    height:5%;
+    position:absolute;
+    top: 6%;
+    left: 4%;
+    border-left: 0px solid #f2f2f2;
+    color:#fff;
+}
+#tubiao span p{
+    color:#008000;
+}
+#tubiao span p:before{
+    margin-right:5px;
+}
+#tubiao li a div{
+    font-size: 14px;
+    line-height: 15px;
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 17px;
+    margin-left:5px;
+    text-overflow: ellipsis;
+    color: #fff;
+    font-weight:600;
+    text-align:center;
+}
+/* 中间部分start---------------------------------------------------------------------------------------------------------------------------- */
+#contioner #content{
+   width:100%;
+   height:72%; 
+   position:absolute;
+   top:47%;
+   left:0%;
+}
+#content #text1{
+    width:100%;
+    height:14%;
+    padding: 0 0px 0px 0;
+}
+/* #text1 .mui-grid-view{
+    font-size: 0;
+    display: block;
+    width: 100%;
+    padding: 0 0px 0px 0;
+    white-space: normal;
+} */
+#text1 li{
+    width:50%;
+    height:100%;
+    background:#fff;
+}
+#text1 li:nth-of-type(2){
+    width:50%;
+    height:100%;
+    border-left:1px solid #ccc;
+}
+#text1 li a{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+   text-align:center;
+    margin:0 auto;
+}
+#text1 li a .glyphicon-flag{
+    width: 30%;
+    height: 28%;
+    line-height:28%;
+    position: absolute;
+    top: 26%;
+    left: 33%;
+  
+    font-size:16px;
+}
+#text1 li a .glyphicon-flag::before{
+    /* width:10px;
+    height:10px; */
+    font-size:2.4rem;
+    color:#049141;
+}
+/* .mui-icon-help:before{
+    width:100%;
+    height:100%;
+} */
+#text1 li a .div1{
+    display: inline-block;
+    width: 100%;
+    height: 33%;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+#text1 li a .div1 p:nth-of-type(1) {
+    display:inline-block;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+}
+#text1 li a .div1 p:nth-of-type(2) {
+    display:inline-block;
+    position: absolute;
+    top: 43%;
+    left: 61%;
+}
+#text1 li a .glyphicon-heart{
+    width: 30%;
+    height: 28%;
+    line-height:28%;
+    position: absolute;
+    top: 26%;
+    left: 33%;
+    font-size:16px;
+}
+#text1 li a .glyphicon-heart::before{
+    /* width:10px;
+    height:10px; */
+    font-size:2.4rem;
+    color:#e64437;
+}
+#text1 li a .div2{
+    display:inline-block;
+    width:100%;
+    height:33%;
+    position:absolute;
+    top: 45%;
+    left: 0%;
+    font-size:12px;
+    color:#CCCCCC;
+    text-align:left;
+}
+#text1 li a .div2 p:nth-of-type(1) {
+    display:inline-block;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+}
+#text1 li a .div2 p:nth-of-type(2) {
+    display:inline-block;
+    position: absolute;
+    top: 43%;
+    left: 61%;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#content #zhed1{
+    width:100%;
+    height:60%;
+    margin-top:2%;
+}
+#zhed1 li{
+    width:100%;
+    height:14%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0px;
+}
+#zhed1 li > a{
+    width:100%;
+    height:50%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0px 0px;
+    padding: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+    position:absolute;
+    left:5%;
+    top:33%;
+    color:#999999;
+}
+
+#zhed1 li .glyphicon-star:before{
+    margin-right:10px;
+}
+#zhed1 li .glyphicon-star:after{
+    margin-right:10%;
+}
+#zhed1 li .glyphicon-calendar:before{
+    margin-right:10px;
+}
+#zhed1 li .glyphicon-calendar:after{
+    margin-right:10%;
+}
+#zhed1 li .glyphicon-tasks:before{
+    margin-right:10px;
+}
+#zhed1 li .glyphicon-tasks:after{
+    margin-right:10%;
+}
+#zhed1 li .glyphicon-education:before{
+    margin-right:10px;
+}
+#zhed1 li .glyphicon-education:after{
+    margin-right:10%;
+}
+#zhed1 li .glyphicon-book:before{
+    margin-right:10px;
+}
+#zhed1 li .glyphicon-book:after{
+    margin-right:10%;
+}
+#zhed1 li .glyphicon-duplicate:before{
+    margin-right:10px;
+}
+#zhed1 li .glyphicon-duplicate:after{
+    margin-right:10%;
+}
+#zhed1 li .glyphicon-map-marker:before{
+    margin-right:10px;
+}
+#zhed1 li .glyphicon-map-marker:after{
+    margin-right:10%;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+#content #zhed2{
+    width:100%;
+    height:17%;
+    margin-top:2%;
+}
+#zhed2 li{
+    width:100%;
+    height:50%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0px;
+}
+#zhed2 li > a{
+    width:100%;
+    height:50%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0px 0px;
+    padding: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+    position:absolute;
+    left:5%;
+    top:33%;
+    color:#999999;
+}
+#zhed2 li .glyphicon-tags:before{
+    margin-right:10px;
+}
+#zhed2 li .glyphicon-tags:after{
+    margin-right:10%;
+}
+#zhed2 li .glyphicon-sd-video:before{
+    margin-right:10px;
+}
+#zhed2 li .glyphicon-sd-video:after{
+    margin-right:10%;
+}
+/* 中间部分end---------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* 底部start */
+#contioner #footer{
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height:7.5%;
+    padding: 0;
+    table-layout: fixed;
+    border-top: 0;
+    border-bottom: 0;
+    webkit-box-shadow: 0 0 1px rgba(225, 225, 225, .85);
+    box-shadow: 0 0 1px rgba(225, 225, 225, .85);
+    background-color:#eeeeed;
+    position:absolute;
+    bottom: 0%;
+    z-index: 1111;
+}
+#footer a{
+    display: table-cell;
+    overflow: hidden;
+    width:33%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #929292;
+    border:0px;
+}
+#footer a .glyphicon-heart{
+    font-size:20px;
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+    color:#e38464;
+}
+#footer a .span1{
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#footer a .mui-icon-personadd{
+    font-size:26px;
+    position: absolute;
+    top: 33%;
+    left:27%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+    color:#e38464;
+}
+#footer a .span2{
+    position: absolute;
+    top: 39%;
+    left: 46%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#footer a .mui-icon-help{
+    font-size:24px;
+    position: absolute;
+    top: 33%;
+    left:40%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+    color:#e38464;
+}
+#footer a .span3{
+    position: absolute;
+    top: 39%;
+    left:61%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* 底部end */
+.mui-media-body {
+    font-size: 14px;
+    line-height: 14px;
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 8px;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.ui-btn {
+    font-size: 16px;
+    /* margin: .5em 0; */
+    /* padding: .7em 1em; */
+    display: block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
+    background-color:# fff;
+    border-color:#fff;
+    color:#fff ;
+    text-shadow: 0 0px 0 #;
+}
+.ui-shadow {
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 0px 0px rgba(0,0,0,.15);
+    box-shadow: 0 0px 0px rgba(0,0,0,.15);
+}

@@ -1,0 +1,492 @@
+#text1{
+    width:100%;
+    height:18%;
+    padding: 0 0px 0px 0;
+}
+/* #text1 .mui-grid-view{
+    font-size: 0;
+    display: block;
+    width: 100%;
+    padding: 0 0px 0px 0;
+    white-space: normal;
+} */
+#text1 li{
+    width:50%;
+    height:100%;
+    background:#fff;
+}
+#text1 li:nth-of-type(2){
+    width:50%;
+    height:100%;
+    border-left:1px solid #ccc;
+}
+#text1 li a{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+   text-align:center;
+    margin:0 auto;
+}
+#text1 li a .mui-icon-help{
+    width:30%;
+    height:70%;
+    position:absolute;
+    top: 18%;
+    left: 8%;
+    border-radius:5%;
+    background:#56c0d1;
+    padding-top:8%;
+}
+#text1 li a .mui-icon-help::before{
+    /* width:10px;
+    height:10px; */
+    font-size:2.4rem;
+    color:#fff;
+}
+/* .mui-icon-help:before{
+    width:100%;
+    height:100%;
+} */
+#text1 li a .div1{
+    display:inline-block;
+    width:60%;
+    height:100%;
+    position:absolute;
+    top: 12%;
+    left: 42%;
+    font-size:12px;
+    color:#CCCCCC;
+    text-align:left;
+}
+#text1 li a .mui-icon-personadd{
+    width:30%;
+    height:70%;
+    position:absolute;
+    top: 18%;
+    left: 8%;
+    border-radius:5%;
+    background:#20b39c;
+    padding-top:8%;
+}
+#text1 li a .mui-icon-personadd::before{
+    /* width:10px;
+    height:10px; */
+    font-size:2.4rem;
+    color:#fff;
+}
+#text1 li a .div2{
+    display:inline-block;
+    width:60%;
+    height:100%;
+    position:absolute;
+    top: 12%;
+    left: 42%;
+    font-size:12px;
+    color:#CCCCCC;
+    text-align:left;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+#qiongy{
+    width:100%;
+    height:80%;
+    margin-top:2%;
+}
+#yaz{
+    width:100%;
+    height:40%;
+}
+#qiongy .mui-table-view:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #fff;
+}
+#qiongy .mui-table-view:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #fff;
+}
+#yaz span{
+   width:100%;
+   height:12%; 
+   border-bottom:1px solid #ccc;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 1;
+   display: inline-block;
+   text-decoration: none;
+   -webkit-font-smoothing: antialiased;
+   position:absolute;
+   top:2%;
+   /* margin-top:12%; */
+}
+#yaz span p{
+    font-family: Muiicons;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+    top:5%;
+    padding-left:5%;
+    
+}
+#yaz span .mui-icon-plusempty{
+    font-family: Muiicons;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+    right:0%;
+}
+#yaz span .mui-icon-plusempty:after {
+    font-size:0.342857rem;
+    color:#ccc;
+    content: '\e468';
+}
+#yaz span .mui-icon-plusempty:before {
+    content: '';
+}
+#yaz li{
+    display:inline-block;
+    width:32%;
+    height: 44%;
+    margin-top:2%;    
+    border-bottom:;
+    padding:0px 0px;
+}
+.mui-table-view-cell:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #fff;
+}
+#yaz li a{
+    width:100%;
+    height:100%;
+    padding:0 0 0 0;
+    position:absolute;
+    top:0%;
+    left:2%;
+    margin:0 0;
+    text-decoration: none;
+
+}
+#yaz li a img{
+    width:40%;
+    height:70%;
+    position:absolute;
+    top: 24%;
+    left: 3%;
+}
+#yaz li a .img1{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+}
+#yaz li a div{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 16%;
+    left: 42%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+    font-weight:600;
+}
+#yaz li a div p{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+#yaz li a .div1{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top:  -6%;
+    left: 42%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+#ouz{
+    width:100%;
+    height:40%;
+}
+#ouz span{
+   width:100%;
+   height:12%; 
+   border-bottom:1px solid #ccc;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 1;
+   display: inline-block;
+   text-decoration: none;
+   -webkit-font-smoothing: antialiased;
+   position:absolute;
+   top:2%;
+   /* margin-top:12%; */
+}
+#ouz span p{
+    font-family: Muiicons;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+    top:5%;
+    padding-left:5%;
+    
+}
+#ouz span .mui-icon-plusempty{
+    font-family: Muiicons;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+    right:0%;
+}
+#ouz span .mui-icon-plusempty:after {
+    font-size:0.342857rem;
+    color:#ccc;
+    content: '\e468';
+}
+#ouz span .mui-icon-plusempty:before {
+    content: '';
+}
+#ouz li{
+    display:inline-block;
+    width:32%;
+    height: 44%;
+    margin-top:2%;    
+    border-bottom:;
+    padding:0px 0px;
+}
+.mui-table-view-cell:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #fff;
+}
+#ouz li a{
+    width:100%;
+    height:100%;
+    padding:0 0 0 0;
+    position:absolute;
+    top:0%;
+    left:2%;
+    margin:0 0;
+    text-decoration: none;
+
+}
+#ouz li a img{
+    width:40%;
+    height:70%;
+    position:absolute;
+    top: 24%;
+    left: 3%;
+}
+#ouz li a .img1{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+}
+#ouz li a .div1{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top:  -6%;
+    left: 42%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+#ouz li a div{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 12%;
+    left: 42%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+#ouz li a div p{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+#xz{
+    width:100%;
+    height:40%;
+}
+#xz span{
+   width:100%;
+   height:12%; 
+   border-bottom:1px solid #ccc;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 1;
+   display: inline-block;
+   text-decoration: none;
+   -webkit-font-smoothing: antialiased;
+   position:absolute;
+   top:2%;
+   /* margin-top:12%; */
+}
+#xz span p{
+    font-family: Muiicons;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+    top:5%;
+    padding-left:5%;
+    
+}
+#xz span .mui-icon-plusempty{
+    font-family: Muiicons;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+    right:0%;
+}
+#xz span .mui-icon-plusempty:after {
+    font-size:0.342857rem;
+    color:#ccc;
+    content: '\e468';
+}
+#xz span .mui-icon-plusempty:before {
+    content: '';
+}
+#xz li{
+    display:inline-block;
+    width:32%;
+    height: 44%;
+    margin-top:4%;    
+    border-bottom:;
+    padding:0px 0px;
+}
+#xz li a{
+    width:100%;
+    height:100%;
+    padding:0 0 0 0;
+    position:absolute;
+    top:0%;
+    left:2%;
+    margin:0 0;
+    text-decoration: none;
+
+}
+#xz li a img{
+    width:40%;
+    height:70%;
+    position:absolute;
+    top: 24%;
+    left: 3%;
+}
+#xz li a .img1{
+    width: 40%;
+    height: 70%; 
+    position: absolute;
+    top: 0%;
+    left: 3%;
+}
+#xz li a .div1{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top:  -6%;
+    left: 42%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+#xz li a div{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 12%;
+    left: 42%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+#xz li a div p{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++{ */
+

@@ -1,0 +1,424 @@
+/* 头部start */
+#header form{
+    width:100%;
+    height:100%;
+}
+#header form .ui-field-contain{
+    width:87%;
+    border-radius: 6px
+}
+#header form .ui-field-contain .mui-input-clear{
+    width: 95%;
+    height: 34px;
+    border-radius: 18px;
+    background: rgba(225,225,225,0.6);
+    color: #fff;
+    font-size: 12px;
+    margin: left;
+}
+.mui-bar .ui-field-contain:before {
+    margin-top: -16px;
+}
+/* ++ */
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+    background-color: rgba(225, 225, 225, 0.5);
+    border-color: rgba(225, 225, 225, 0.5);
+    color: #fff;
+    text-shadow: 0 1px 0 #f3f3f3;
+    position: absolute;
+    top:1%;
+    left:1%;
+}
+#header form .ui-corner-all {
+    width:95%;
+    height:157%;
+    -webkit-border-radius:1.571428rem ;/*20*/
+    border-radius:1.571428rem ;/*20*/
+    position: absolute;
+    top:1%;
+    left:1%;
+    color:#fff;
+}
+#header form label{
+    font-size:12px;
+    position:absolute;
+    right: -9%;
+    top: 56%;
+}
+#header form input{
+    font-size:12px;
+    position:absolute;
+    right: -2%;
+    top: -22%;
+    color:#fff;
+}
+.ui-input-search:after {
+    position: absolute;
+    left: .3125em;
+    top: 50%;
+    margin-top: -7px;
+    content: "";
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    filter: Alpha(Opacity=50);
+    opacity: .5;
+    color:#fff;
+}
+/* 头部end */    
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* 图标分类start */
+#content #didian{
+    width:100%;
+    height:25%;
+    margin-top:2%;
+    background:#f2f2f2;
+}
+
+#didian span{
+    width:100%;
+    height:5%;
+    position:absolute;
+    top: 6%;
+    left: 4%;
+    border-left: 0px solid #f2f2f2;
+    color:#008000;
+}
+#didian span p{
+    color:#008000;
+}
+#didian span p:before{
+    margin-right:5px;
+}
+#didian #tubiao{
+    width:100%;
+    height:17%;
+    position:absolute;
+    top:12%;
+    left:0;
+}
+#tubiao li{
+    width:25%;
+    height:100%;
+    line-height:100%;
+    margin:0 auto;
+    border:0px ;
+}
+#tubiao li a{
+    width:100%;
+    height:100%;
+    line-height:100%;
+    position:absolute;
+    top:2%;
+    left:0;
+    buttom:0%;
+    right:0%;
+} 
+#tubiao #xiaob1{
+    width: 100%;
+    height: 50%;
+    line-height: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    buttom:0%;
+    right:0%;
+    text-align: center;
+} 
+#tubiao #xiaob1 p{
+    width: 50%;
+    height: 100%;
+    line-height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: 29%;
+    buttom: 0%;
+    right: 0%;
+    text-align: center;
+    box-shadow: 0px 0px 0px 2px rgb(71,170,115);
+}
+#tubiao #xiaob2{
+    width: 100%;
+    height: 50%;
+    line-height: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    buttom:0%;
+    right:0%;
+    text-align: center;
+} 
+#tubiao #xiaob2 p{
+    width: 50%;
+    height: 100%;
+    line-height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: 29%;
+    buttom: 0%;
+    right: 0%;
+    text-align: center;
+    box-shadow: 0px 0px 0px 2px rgb(71,170,115);
+} 
+#tubiao #xiaob3{
+    width: 100%;
+    height: 50%;
+    line-height: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    buttom:0%;
+    right:0%;
+    text-align: center;
+} 
+#tubiao #xiaob3 p{
+    width: 50%;
+    height: 100%;
+    line-height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: 29%;
+    buttom: 0%;
+    right: 0%;
+    text-align: center;
+    box-shadow: 0px 0px 0px 2px rgb(71,170,115);
+}
+#tubiao #xiaob4{
+    width: 100%;
+    height: 50%;
+    line-height: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    buttom:0%;
+    right:0%;
+    text-align: center;
+} 
+#tubiao #xiaob4 p{
+    width: 50%;
+    height: 100%;
+    line-height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: 29%;
+    buttom: 0%;
+    right: 0%;
+    text-align: center;
+    box-shadow: 0px 0px 0px 2px rgb(71,170,115);
+}
+#tubiao li a div{
+    width:100%;
+    height:30%;
+    line-height:100%;
+    position:absolute;
+    top:52%;
+    left:6%;
+    buttom:0%;
+    right:0%;    
+} 
+#tubiao .glyphicon-home:before{
+   width:100%;
+   height: 100%;
+   line-height:100%;
+   border-radius:50%;
+   color:#49aa73;
+   font-size:30px;
+   position:absolute;
+   top: 33%;
+   left:0%;
+   buttom:0%;
+   right:0%;
+}
+#tubiao .glyphicon-glass:before{
+    width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#49aa73;
+    font-size:30px;
+    position:absolute;
+    top: 22%;
+    left:0%;
+    buttom:0%;
+    right:0%;
+    
+}
+#tubiao .glyphicon-object-align-bottom:before{
+    width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#49aa73;
+    font-size:30px;
+    position:absolute;
+    top: 22%;
+    left:0%;
+    buttom:0%;
+    right:0%;
+}
+#tubiao .glyphicon-option-horizontal:before{
+    width:100%;
+    height: 100%;
+    line-height:100%;
+    border-radius:50%;
+    color:#49aa73;
+    font-size:30px;
+    position:absolute;
+    top: 22%;
+    left:0%;
+    buttom:0%;
+    right:0%;
+}
+/* 图标分类end */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* 图文表格start */
+#content #guonei{
+    width:100%;
+    height:30%;
+    /* margin-top:2%; */
+    /* background:#fff; */
+    }
+#guonei li{
+    width:25%;
+    height:20%;
+    border-right: 0px;
+    border-bottom:0px;
+    padding-left:9px;
+    left:2%;
+    padding-top:2%;
+    margin-top:2%;     
+}
+#guonei li:nth-of-type(1){
+    margin-top:10%;
+}
+#guonei li:nth-of-type(2){
+    margin-top:10%;
+}
+#guonei li:nth-of-type(3){
+    margin-top:10%;
+}
+#guonei li:nth-of-type(4){
+    margin-top:10%;
+}
+#guonei li a{
+    width:100%;
+    height:100%;
+    line-height:100%;
+    border-radius:20px;
+    background:rgb(239,238,237);
+}
+/* #guonei li a img{
+    width:100%;
+    height:100%;
+} */
+#guonei li a div{
+    width:100%;
+    height:20%;
+}
+/* #guonei li a{
+    width:100%;
+    height:85px;
+} */
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+    margin: 0;
+    padding: 0px 15px;
+    vertical-align: top;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+#guonei span{
+    width:100%;
+    height:5%;
+    position:absolute;
+    top: 6%;
+    left: 4%;
+    border-left: 0px solid #f2f2f2;
+    color:#008000;
+}
+#guonei span p{
+    color:#008000;
+}
+#guonei span p:before{
+    margin-right:5px;
+    
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* 图文表格start */
+#content #guoji{
+    width:100%;
+    height:35%;
+    /* margin-top:2%; */
+    /* background:#fff; */
+    }
+#guoji li{
+    width:25%;
+    height:20%;
+    border-right: 0px;
+    border-bottom:0px;
+    padding-left:9px;
+    left:2%;
+    padding-top:4%;
+    margin-top:2%;     
+}
+#guoji li:nth-of-type(1){
+    margin-top:10%;
+}
+#guoji li:nth-of-type(2){
+    margin-top:10%;
+}
+#guoji li:nth-of-type(3){
+    margin-top:10%;
+}
+#guoji li:nth-of-type(4){
+    margin-top:10%;
+}
+#guoji li a{
+    width:100%;
+    height:100%;
+    line-height:100%;
+    border-radius:20px;
+    background:rgb(239,238,237);
+}
+/* #guoji li a img{
+    width:100%;
+    height:100%;
+} */
+#guoji li a div{
+    width:100%;
+    height:20%;
+}
+/* #guoji li a{
+    width:100%;
+    height:85px;
+} */
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+    margin: 0;
+    padding: 0px 15px;
+    vertical-align: top;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+#guoji span{
+    width:100%;
+    height:5%;
+    position:absolute;
+    top: 6%;
+    left: 4%;
+    border-left: 0px solid #f2f2f2;
+    color:#008000;
+}
+#guoji span p{
+    color:#008000;
+}
+#guoji span p:before{
+    margin-right:5px;
+    
+}}
+/* 图文表格end */
+/* --------------------------------------------------------------------------------------------------------------- */
