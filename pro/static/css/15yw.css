@@ -1,0 +1,322 @@
+/* 全局控制 */
+a{text-decoration: none;list-style: none;}
+* {margin: 0;padding: 0;list-style: none;}
+body{ color: #9e9e9e; font:12px/20px "Microsoft Yahei", arial,sans-serif; background: #f0f0f0 ; font-weight: normal; width:100%;height:100%;}
+/* 重置默认样式 */
+a{text-decoration: none;  outline:none;}
+ul,ol{list-style:none;}
+/* 设置网页样式 */
+/* 标题: */
+/* #contioner{
+    width:100%;
+    height:100%;
+    position:relative;
+} */
+ #header{
+    width:100%;
+    height: 4.64rem;
+    background-color:#118840;
+    color:#fff;
+    text-align:center;
+    position:relative;
+}
+/* 标题:————定位 */
+#header #dinwei{
+    width:22%;
+    color:#fff;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top:15%;
+    left:-1%;
+}
+.mui-bar-nav.mui-bar .mui-icon {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/* 标题:————二维码 */
+#header #gongl{
+    width: 32px;
+    height: 32px;
+    z-index: 11;
+    margin: 0 auto;
+    top: 10%;
+    left: 45%;
+    color:#fff;
+}
+/* 定位-城市 */
+
+#header a .city{
+    font-size:12px;
+    text-align:center;
+}
+/* 标题:————搜索框 */
+.mui-bar .mui-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 7px -33px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// *//* 
+中间部分start---------------------------------------------------------------------------------------------------------------------------- */
+#contioner #content{
+   width:100%;
+   height:100%; 
+   position:absolute;
+   top:-2%;
+   left:0%;
+   background:#efeeed;
+}
+.mui-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 0 -10px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+/* 中间部分 */
+#contioner #content{
+   width:100%;
+   /* height:100%; */
+   position:absolute;
+   top:8%;
+   left:0%;
+   background:#efeeed;
+}
+/* 1111111111111111 */
+#content #text{
+    width:100%;
+    height:100%;
+    padding: 0 0px 0px 0;
+    background:#efeeed;
+    margin-top:2%;
+}
+#text li{
+    width:100%;
+   height:15%;
+   background:#fff;
+   padding: 0px 0px 0 0px;
+   margin-right:1px;
+   margin-left:4px;
+   position:relative;
+    
+}
+#text li a{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    
+    text-align:center;
+    margin:0 auto;
+    margin: 0px 0 0 0px;
+}
+#text li a img{
+    display:inline-block;
+    line-height: 42px;
+    max-width: 51%;
+    height: 95%;;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
+#text li a .mui-media-body{
+    display: block;
+    width: 71%;
+    height: 100%;
+    position: absolute;
+    right: 2%;
+    top: 0%;
+    text-overflow: ellipsis;
+    color: #333;
+}
+#text li a .mui-media-body .left{
+    font-size:14px;
+    width:40%;
+    height: 100%;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+    text-overflow: ellipsis;
+    color: #333;
+}
+#text li a .mui-media-body .left .lang{
+    font-size:16px;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+    text-overflow: ellipsis;
+    color: #333;
+}
+#text li a .mui-media-body .left .moany{
+    font-size:16px;
+    position: absolute;
+    left: 2%;
+    top: 21%;
+    text-overflow: ellipsis;
+    color: #00903f;
+}
+#text li a .mui-media-body .left .yuan{
+    font-size:14px;
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    text-overflow: ellipsis;
+    color: #999999;
+}
+#text li a .mui-media-body .left .dianp{
+    font-size:12px;
+    position: absolute;
+    left: 2%;
+    top: 39%;
+    text-overflow: ellipsis;
+    color: #00903f;
+}
+#text li a .mui-media-body .left .ren{
+    font-size:12px;
+    position: absolute;
+    left: 2%;
+    top: 66%;
+    text-overflow: ellipsis;
+    color: #999999;
+}
+#text li a .mui-media-body .right{
+    display: inline-block;
+    font-size: 14px;
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    right: -10%;
+    top: 25%;
+    text-overflow: ellipsis;
+    color: #333;
+}
+/* 中间部分 */
+/* /////////////////////////////////////////////////////////////////////////////// */
+/* 底部start */
+#contioner #footer{
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height:7.5%;
+    padding: 0;
+    table-layout: fixed;
+    border-top: 0;
+    border-bottom: 0;
+    webkit-box-shadow: 0 0 1px rgba(225, 225, 225, .85);
+    box-shadow: 0 0 1px rgba(225, 225, 225, .85);
+    background-color:#eeeeed;
+    position:absolute;
+    bottom: 0%;
+    z-index: 1111;
+}
+#footer a{
+    display: table-cell;
+    overflow: hidden;
+    width:50%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #929292;
+    border:0px;
+}
+#footer a .glyphicon-filter{
+    font-size:20px;
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+    color:#159243;
+}
+#footer a .span1{
+    position: absolute;
+    top: 38%;
+    left: 21%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#footer a .glyphicon-sort{
+    font-size: 20px;
+    position: absolute;
+    top: 33%;
+    left: 70%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+    color:#159243;
+}
+#footer a .span2{
+    position: absolute;
+    top: 34%;
+    left: 77%;
+    width: 5%;
+    height: 24%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* 底部end */
+.mui-media-body {
+    font-size: 14px;
+    line-height: 14px;
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 8px;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.ui-btn {
+    font-size: 16px;
+    /* margin: .5em 0; */
+    /* padding: .7em 1em; */
+    display: block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
+    background-color:# fff;
+    border-color:#fff;
+    color:#fff ;
+    text-shadow: 0 0px 0 #;
+}
+.ui-shadow {
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 0px 0px rgba(0,0,0,.15);
+    box-shadow: 0 0px 0px rgba(0,0,0,.15);
+}

@@ -30,14 +30,14 @@
     margin:0 auto;
 }
 #text1 li a .mui-icon-help{
-    width:30%;
-    height:70%;
-    position:absolute;
-    top: 18%;
+    width: 30%;
+    height: 57%;
+    position: absolute;
+    top: 27%;
     left: 8%;
-    border-radius:5%;
-    background:#56c0d1;
-    padding-top:8%;
+    border-radius: 5%;
+    background: #56c0d1;
+    padding-top: 8%;
 }
 #text1 li a .mui-icon-help::before{
     /* width:10px;
@@ -50,21 +50,24 @@
     height:100%;
 } */
 #text1 li a .div1{
-    display:inline-block;
-    width:60%;
-    height:100%;
-    position:absolute;
-    top: 12%;
+    display: inline-block;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 17%;
     left: 42%;
     font-size:12px;
-    color:#CCCCCC;
     text-align:left;
+     color:#cdcdcd;
+}
+#text1 li a .div1 h5{
+    color:#858483;
 }
 #text1 li a .mui-icon-personadd{
-    width:30%;
-    height:70%;
-    position:absolute;
-    top: 18%;
+    width: 30%;
+    height: 57%;
+    position: absolute;
+    top: 27%;
     left: 8%;
     border-radius:5%;
     background:#20b39c;
@@ -84,8 +87,11 @@
     top: 12%;
     left: 42%;
     font-size:12px;
-    color:#CCCCCC;
+    color:#cdcdcd;
     text-align:left;
+}
+#text1 li a .div2 h5{
+    color:#858483;
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
 
@@ -200,37 +206,40 @@
 
 }
 #yaz li a img{
-    width:40%;
-    height:70%;
+    height:60%;
     position:absolute;
-    top: 24%;
+    top: 35%;
     left: 3%;
+     max-width: 54px;
 }
 #yaz li a .img1{
-    width: 40%;
-    height: 70%;
+    height:60%;
     position: absolute;
-    top: 0%;
+    top: 9%;
     left: 3%;
+     max-width: 54px;
 }
 #yaz li a div{
     display: inline-block;
     width: 60%;
     height: 100%;
     position: absolute;
-    top: 16%;
-    left: 42%;
+    top: 21%;
+    left: 54%;
     font-size: 12px;
-    color: #CCCCCC;
+    color:#cdcdcd;
     text-align: left;
     font-weight:600;
+}
+#yaz li a div h5{
+    color:#858483;
 }
 #yaz li a div p{
     display: inline-block;
     width: 100%;
     height: 100%;
     font-size: 12px;
-    color: #CCCCCC;
+    color: #cdcdcd;
     text-align: left;
 }
 #yaz li a .div1{
@@ -239,10 +248,13 @@
     height: 100%;
     position: absolute;
     top:  -6%;
-    left: 42%;
+    left: 54%;
     font-size: 12px;
-    color: #CCCCCC;
+    color:#cdcdcd;
     text-align: left;
+}
+#yaz li a .div1 h5{
+    color:#858483;
 }
 /* ///////////////////////////////////////////////////////////////////////////// */
 #ouz{
@@ -328,18 +340,19 @@
 
 }
 #ouz li a img{
-    width:40%;
-    height:70%;
+    height:60%;
     position:absolute;
-    top: 24%;
+    top:33%;
     left: 3%;
+    max-width: 54px;
+    
 }
 #ouz li a .img1{
-    width: 40%;
-    height: 70%;
-    position: absolute;
-    top: 0%;
+    height:60%;
+    position:absolute;
+    top:6%;
     left: 3%;
+    max-width: 54px;
 }
 #ouz li a .div1{
     display: inline-block;
@@ -347,9 +360,9 @@
     height: 100%;
     position: absolute;
     top:  -6%;
-    left: 42%;
+    left: 54%;
     font-size: 12px;
-    color: #CCCCCC;
+    color:#cdcdcd;
     text-align: left;
 }
 #ouz li a div{
@@ -357,18 +370,21 @@
     width: 60%;
     height: 100%;
     position: absolute;
-    top: 12%;
-    left: 42%;
+    top: 21%;
+    left: 54%;
     font-size: 12px;
-    color: #CCCCCC;
+    color:#cdcdcd;
     text-align: left;
+}
+#ouz li a div h5{
+    color:#858483;
 }
 #ouz li a div p{
     display: inline-block;
     width: 100%;
     height: 100%;
     font-size: 12px;
-    color: #CCCCCC;
+    color: #cdcdcd;
     text-align: left;
 }
 /* ///////////////////////////////////////////////////////////////////////////// */
@@ -444,18 +460,18 @@
 
 }
 #xz li a img{
-    width:40%;
-    height:70%;
-    position:absolute;
-    top: 24%;
+    height: 60%; 
+    position: absolute;
+    top: 27%;
     left: 3%;
+    max-width: 54px;
 }
 #xz li a .img1{
-    width: 40%;
-    height: 70%; 
+    height: 60%; 
     position: absolute;
     top: 0%;
     left: 3%;
+    max-width: 54px;
 }
 #xz li a .div1{
     display: inline-block;
@@ -463,7 +479,7 @@
     height: 100%;
     position: absolute;
     top:  -6%;
-    left: 42%;
+    left: 54%;
     font-size: 12px;
     color: #CCCCCC;
     text-align: left;
@@ -474,17 +490,20 @@
     height: 100%;
     position: absolute;
     top: 12%;
-    left: 42%;
+    left: 54%;
     font-size: 12px;
-    color: #CCCCCC;
+    color: #cdcdcd;
     text-align: left;
+}
+#xz li a div h5{
+    color:#858483;
 }
 #xz li a div p{
     display: inline-block;
     width: 100%;
     height: 100%;
     font-size: 12px;
-    color: #CCCCCC;
+    color: #cdcdcd;
     text-align: left;
 }
 

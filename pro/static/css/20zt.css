@@ -19,6 +19,7 @@ ul,ol{list-style:none;}
     color:#fff;
     text-align:center;
     position:relative;
+    position:fixed;
 }
 /* 标题:————定位 */
 #header #dinwei{
@@ -126,36 +127,108 @@ ul,ol{list-style:none;}
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* 中间部分start---------------------------------------------------------------------------------------------------------------------------- */
-/* #contioner .ui-content{
+#contioner #content{
    width:100%;
-   height:86%;
+   height:100%; 
+   position:absolute;
+   top:-2%;
+   left:0%;
+   background:#efeeed;
+}
+.mui-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 0 -10px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+/* 中间部分 */
+#contioner #content{
+   width:100%;
+   /* height:100%; */
    position:absolute;
    top:8%;
    left:0%;
-   background: #f5f4f4;
-   position: relative;
-} */
-#content{
-   width:100%;
-   height:60rem;
-   position:absolute;
-   top:5%;
-   left:0%;
-   background: #f5f4f4;
-   margin-top:4%;
-   overflow: hidden;
+   background:#efeeed;
 }
-/* --------------------------------------------------------------------------------------------------------------- */
-/* --------------------------------------------------------------------------------------------------------------- */
-/* 中间部分end */
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
- /* 底部start */
- #footer{
+/* 111111111111111111111111111 */
+#content #text{
+    width:100%;
+    height:100%;
+    padding: 0 0px 0px 0;
+    background:#efeeed;
+     /* margin-top:2%; */
+}
+
+#text li{
+    width:98%;
+    height:25%;
+    background:#fff;
+    padding: 0px 0px 0 0px;
+    margin-top:4px;
+    margin-left:4px;
+    position:relative;
+    
+}
+#text li a{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;   
+    text-align:center;
+    margin:0 auto;
+    margin: 0px 0 0 0px;
+    
+}
+#text li .a1{
+    background:url(../images/3zy/1ly.jpg) no-repeat;
+    background-size:100% 100%;
+}
+#text li .a2{
+    background:url(../images/3zy/2ly.jpg) no-repeat;
+    background-size:100% 100%;
+}
+#text li .a3{
+    background:url(../images/3zy/3ly.jpg) no-repeat;
+    background-size:100% 100%;
+}
+#text li .a4{
+    background:url(../images/3zy/4ly.jpg) no-repeat;
+    background-size:100% 100%;
+}
+#text li a div{
+    max-width:80%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border:3px solid #fff;
+    color:#fff;
+}
+#text li a div p{
+    font-size:12px;
+    color:#fff;
+}
+
+
+/* 中间部分 */
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* 底部start */
+#footer{
     bottom: 0;
     display: table;
     width: 100%;
-    height: 4.64rem;
-    height: 58px;
+    /* height: 4.64rem; */
+    height: 0px;
     padding: 0;
     table-layout: fixed;
     border-top: 0;
@@ -164,20 +237,7 @@ ul,ol{list-style:none;}
     box-shadow: 0 0 1px rgba(225, 225, 225, .85);
     background-color:#eeeeed;
 }
-#footer ul{
-    width: 100%;
-    height:100%;
-}
-#footer ul li{
-    width: 25%;
-    padding: 5px;
-    background: #fff;
-    border-top: 1px solid #f5f5f5;
-    float: left;
-    text-align: center;
-    font-size: 14px;
-}
-#footer ul li .mui-active {
+.mui-bar-tab .mui-tab-item.mui-active {
     color:#118840;
 }
 /* 底部end */
@@ -193,4 +253,10 @@ ul,ol{list-style:none;}
 }
 .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
     color: #929292;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color:rgba(225,255,225,0);
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
 }

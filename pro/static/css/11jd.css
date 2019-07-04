@@ -1,0 +1,271 @@
+/* 全局控制 */
+a{text-decoration: none;list-style: none;}
+* {margin: 0;padding: 0;list-style: none;}
+body{ color: #9e9e9e; font:12px/20px "Microsoft Yahei", arial,sans-serif; background: #f0f0f0 ; font-weight: normal; width:100%;height:100%;}
+/* 重置默认样式 */
+a{text-decoration: none;  outline:none;}
+ul,ol{list-style:none;}
+/* 设置网页样式 */
+/* 标题: */
+/* #contioner{
+    width:100%;
+    height:100%;
+    position:relative;
+} */
+ #header{
+    width:100%;
+    height: 4.64rem;
+    background-color:#118840;
+    color:#fff;
+    text-align:center;
+    position:relative;
+}
+/* 标题:————定位 */
+#header #dinwei{
+    width:22%;
+    color:#fff;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top:15%;
+    left:-1%;
+}
+.mui-bar-nav.mui-bar .mui-icon {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/* 定位-城市 */
+
+#header a .city{
+    font-size:12px;
+    text-align:center;
+}
+/* 标题:————搜索框 */
+.mui-bar .mui-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 7px -33px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* 中间部分start---------------------------------------------------------------------------------------------------------------------------- */
+/* #contioner .ui-content{
+   width:100%;
+   height:86%;
+   position:absolute;
+   top:8%;
+   left:0%;
+   background: #f5f4f4;
+   position: relative;
+} */
+#content{
+   width:100%;
+   height:60rem;
+   position:absolute;
+   top:5%;
+   left:0%;
+   background: #f5f4f4;
+   margin-top:4%;
+   overflow: hidden;
+}
+
+#content #img1{
+    width:100%;
+    height:30%;
+}
+#content #img1 img{
+    width:100%;
+    height:100%;
+}
+#content #img2{
+    width:50%;
+    height:10%;
+    position:absolute;
+    top: 31%;
+    left: 26%;
+}
+#content #img2 img{
+    width:100%;
+    height:100%;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------
+ */
+
+ /* --------------------------------------------------------------------------------------------------------------- */
+ /* 图标分类start */
+ #content #tubiao{
+     width:100%;
+     height:50%;
+     margin-top:20%;
+ }
+ #tubiao li{
+    width: 24%;
+    height: 33%;
+    line-height: 50%;
+    margin-top: 6%;
+    margin-right: 3px;
+    border: 0px;
+ }
+  #tubiao li a{
+     width:100%;
+     height:100%;
+     line-height:100%;
+     margin:0 auto;
+     border:0px ;
+ }
+  #tubiao li a .city1{
+     width:100%;
+     height:100%;
+     position:absolute;
+     top:-2%;
+     left:0;
+     buttom:0%;
+     right:0%;
+ }
+/* #tubiao li a #text{
+    display:inline-block;
+     width:100%;
+     height:20%;
+     font-size:12px;
+     color:#fff;
+     z-index: 11;
+ } */
+#tubiao li a .img {
+    display: inline-block;
+    width: 96%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    color: #fff;
+}
+  #tubiao li a .img p:nth-of-type(1){
+   font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    color: #fff;
+ }
+   #tubiao li a .city2{
+      width:100%;
+      height:100%;
+     position:absolute;
+     top:-2%;
+     left:0;
+     buttom:0%;
+     right:0%;
+ } 
+#tubiao li a .city3{
+    width:100%;
+    height:100%;
+     position:absolute;
+     top:-2%;
+     left:0;
+     buttom:0%;
+     right:0%;
+ } 
+#tubiao li a .city4{
+     width:100%;
+     height:100%;
+     position:absolute;
+     top:-2%;
+     left:0;
+     buttom:0%;
+     right:0%;
+ } 
+#tubiao li a .city5{
+      width:100%;
+      height:100%;
+     position:absolute;
+     top:-2%;
+     left:0;
+     buttom:0%;
+     right:0%;
+ }
+#tubiao li a .city6{
+       width:100%;
+       height:100%;
+      position:absolute;
+      top:-2%;
+      left:0;
+      buttom:0%;
+      right:0%;
+  } 
+ /* 图标分类end */
+  /* --------------------------------------------------------------------------------------------------------------- */
+  .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+     margin: 0;
+     /* padding: 11px 15px; */
+     vertical-align: top;
+     border-right: 1px solid #eee;
+     border-bottom: 1px solid #eee;
+ }
+ .mui-table-view.mui-grid-view .mui-table-view-cell {
+     font-size: 17px;
+     display: inline-block;
+     margin-right: -4px;
+     padding: 0px 0 0 0px;
+     text-align: center;
+     vertical-align: middle;
+     background: none;
+ }
+/* --------------------------------------------------------------------------------------------------------------- */
+/* 中间部分end */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+ /* 底部start */
+ #footer{
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 4.64rem;
+    height: 58px;
+    padding: 0;
+    table-layout: fixed;
+    border-top: 0;
+    border-bottom: 0;
+    webkit-box-shadow: 0 0 1px rgba(225, 225, 225, .85);
+    box-shadow: 0 0 1px rgba(225, 225, 225, .85);
+    background-color:#eeeeed;
+}
+#footer ul{
+    width: 100%;
+    height:100%;
+}
+#footer ul li{
+    width: 25%;
+    padding: 5px;
+    background: #fff;
+    border-top: 1px solid #f5f5f5;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+#footer ul li .mui-active {
+    color:#118840;
+}
+/* 底部end */
+.mui-media-body {
+    font-size: 14px;
+    line-height: 14px;
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 8px;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+    color: #929292;
+}

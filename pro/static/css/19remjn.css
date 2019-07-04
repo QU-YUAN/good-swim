@@ -19,6 +19,7 @@ ul,ol{list-style:none;}
     color:#fff;
     text-align:center;
     position:relative;
+    position:fixed;
 }
 /* 标题:————定位 */
 #header #dinwei{
@@ -126,223 +127,266 @@ ul,ol{list-style:none;}
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* 中间部分start---------------------------------------------------------------------------------------------------------------------------- */
-/* #contioner .ui-content{
+#contioner #content{
    width:100%;
-   height:86%;
+   height:100%; 
+   position:absolute;
+   top:-2%;
+   left:0%;
+   background:#efeeed;
+}
+.mui-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 0 -10px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+/* 中间部分 */
+#contioner #content{
+   width:100%;
+   /* height:100%; */
    position:absolute;
    top:8%;
    left:0%;
-   background: #f5f4f4;
-   position: relative;
-} */
-#content{
-   width:100%;
-   height:60rem;
-   position:absolute;
-   top:5%;
-   left:0%;
-   background: #f5f4f4;
-   margin-top:4%;
-   overflow: hidden;
+   background:#efeeed;
 }
-/* --------------------------------------------------------------------------------------------------------------- */
-/* 轮播 */
-#content #slider{
+/* 111111111111111111111111111 */
+#content #text{
     width:100%;
-    height:29%;
+    height:32%;
+    padding: 0 0px 0px 0;
+    background:#efeeed;
+     margin-top:2%;
 }
-#slider #lb{
-    width:100%;
+
+#text li{
+    width:48%;
     height:100%;
-}
-#slider #lb #lbt{
-    width:100%;
-    height:100%;
-}
-#slider #lb #lbt a{
-    width:100%;
-    height:100%;
-}
-#slider #lb #lbt a img{
-    width:100%;
-    height:100%;
-}
-#slider #dian .mui-indicator{
-    background-color:#fff;
-}
-#slider #dian .mui-active{
-    background-color:#118840;
-}
-/* 22 */
-#slider #span{
-    width:50%;
-    position:absolute;
-    top:10%;
-    left:0%;
-    color:#eae8e9;
-    z-index: 111;
-}
-#slider #span p{
-    color:#eae8e9;
-}
-/* 轮播end */
-/* --------------------------------------------------------------------------------------------------------------- */
-/* 图标分类start */
-#content #tubiao{
-    width:100%;
-    height:30%;
-   position:absolute;
-   top:30%;
-   left:0%;
-   /* position:fixed; */
-   background:#fff;
-}
-#tubiao li{
-    width:25%;
-    height:50%;
-    line-height:50%;
-    margin:0 auto;
-    border:0px ;
-}
-/* #tubiao li a{
-    position:absolute;
-    top:-2%;
-    left:0;
-    buttom:0%;
-    right:0%;
-} */ 
-#tubiao .mui-icon-home:before{
-   width:100%;
-    height: 100%;
-    line-height:100%;
-    border-radius:50%;
-    color:#fff;
-    background-color:#008000;    
-}
-#tubiao .mui-icon-map:before{
-    width:100%;
-    height: 100%;
-    line-height:100%;
-    border-radius:50%;
-    color:#fff;
-    background-color:#348bcc;
-}
-#tubiao .mui-icon-spinner-cycle:before{
-    width:100%;
-    height: 100%;
-    line-height:100%;
-    border-radius:50%;
-    color:#fff;
-    background-color:#e4604a;
-}
-#tubiao .mui-icon-minus:before{
-    width:100%;
-    height: 100%;
-    line-height:100%;
-    border-radius:50%;
-    color:#fff;
-    background-color:#8f62a7;
-}
-#tubiao .mui-icon-chat:before{
-    width:100%;
-    height: 100%;
-    line-height:100%;
-    border-radius:50%;
-    color:#fff;
-    background-color:#ee7631;
-}
-#tubiao .mui-icon-compose:before{
-   width:100%;
-   height: 100%;
-   line-height:100%;;
-    border-radius:50%;
-    color:#fff;
-    background-color:#ebb817;
-}
-#tubiao .mui-icon-help:before{
-    width:100%;
-    height: 100%;
-    line-height:100%;
-    border-radius:50%;
-    color:#fff;
-    background-color:#358bcb;
-}
-#tubiao .mui-icon-location:before{
-   width:100%;
-   height: 100%;
-   line-height:100%;
-    border-radius:50%;
-    color:#fff;
-    background-color:#a4c523;
-}
-/* 图标分类end */
-/* --------------------------------------------------------------------------------------------------------------- */
-/* 图文表格start */
-#content #tuwen{
-    width:100%;
-    height:37%;
-    position:absolute;
-    top:61%;
-    left:0%;
-    /* position:fixed; */
     background:#fff;
+    padding: 0px 0px 0 0px;
+    margin-right:1px;
+    margin-left:4px;
+    position:relative;
     
-    }
-#tuwen li{
-    width:16%;
-    height:40%;
-    border-right: 0px;
-    border-bottom:0px;
-    padding-left:0px;
-    padding-top:2px;
-     left:2%;
 }
-#tuwen li a{
+#text li a{
     width:100%;
     height:100%;
-    padding:0px 0;
+    position:absolute;
+    top:0%;
+    left:0%;
+    
+    text-align:center;
+    margin:0 auto;
+    margin: 0px 0 0 0px;
 }
-/* #tuwen li a img{
-    width:100%;
-    height:100%;
-} */
-#tuwen li a div{
-    width:100%;
-    height:20%;
-    font-size:14px;
+#text li a .img{
+    position:absolute;
+    top:28%;
+    right:17%;
 }
-/* #tuwen li a{
-    width:100%;
-    height:85px;
-} */
-.mui-grid-view.mui-grid-9 .mui-table-view-cell {
-    margin: 0;
-    padding: 0px 15px;
-    vertical-align: top;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+#text li a .xiangg{
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+    width: 100%;
+    height: 35%;
+    position:absolute;
+    top:56%;
+    text-overflow: ellipsis;
+    color: #333;
 }
-#tuwen h4{
+#text li a .xiangg .kuaixian{
+    dispaly:inline-block;
+    font-size:12px;
+    width:97%;
+    height:60%;
+    line-height:100%;
+    position:absolute;
+    top:18%;
+    left:3%;
+    color:#ccc;
+    text-align:center;
+}
+#text li a .xiangg .kuaixian h4{
+    text-align:center;
+    color: #8f8f94;
+}
+#text li a .xiangg .kuaixian p{
     width:100%;
-    height:8%;
-    color:#000;
-    border-left:4px solid #008000;
-    margin-left:15px;
-     margin-top:10px;
-     padding-left:10px;
+    height:50%;
+    line-height:100%;
+    font-size:12px;
+    position:absolute;
+    top:71%;
+    left:0%;
     text-align:left;
+    color: #ccc;
 }
-/* 图文表格end */
-/* --------------------------------------------------------------------------------------------------------------- */
-/* 中间部分end */
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
- /* 底部start */
- #footer{
+/* ///////////////////ul2 */
+#content #text1{
+    width:100%;
+    height:32%;
+    padding: 0 0px 0px 0;
+    background:#efeeed;
+     margin-top:2%;
+}
+
+#text1 li{
+    width:48%;
+    height:100%;
+    background:#fff;
+    padding: 0px 0px 0 0px;
+    margin-right:1px;
+    margin-left:4px;
+    position:relative;
+    
+}
+#text1 li a{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    
+    text-align:center;
+    margin:0 auto;
+    margin: 0px 0 0 0px;
+}
+#text1 li a .img{
+    position:absolute;
+    top:28%;
+    right:17%;
+}
+#text1 li a .xiangg{
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+    width: 100%;
+    height: 35%;
+    position:absolute;
+    top:56%;
+    text-overflow: ellipsis;
+    color: #333;
+}
+#text1 li a .xiangg .kuaixian{
+    dispaly:inline-block;
+    font-size:12px;
+    width:97%;
+    height:60%;
+    line-height:100%;
+    position:absolute;
+    top:18%;
+    left:3%;
+    color:#ccc;
+    text-align:center;
+}
+#text1 li a .xiangg .kuaixian h4{
+    text-align:center;
+    color: #8f8f94;
+}
+#text1 li a .xiangg .kuaixian p{
+    width:100%;
+    height:50%;
+    line-height:100%;
+    font-size:12px;
+    position:absolute;
+    top:71%;
+    left:0%;
+    text-align:left;
+    color: #ccc;
+}
+/* 333333333333333333333333 */
+#content #text2{
+    width:100%;
+    height:32%;
+    padding: 0 0px 0px 0;
+    background:#efeeed;
+     margin-top:2%;
+}
+
+#text2 li{
+    width:48%;
+    height:100%;
+    background:#fff;
+    padding: 0px 0px 0 0px;
+    margin-right:1px;
+    margin-left:4px;
+    position:relative;
+    
+}
+#text2 li a{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    
+    text-align:center;
+    margin:0 auto;
+    margin: 0px 0 0 0px;
+}
+#text2 li a .img{
+    position:absolute;
+    top:28%;
+    right:17%;
+}
+#text2 li a .xiangg{
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+    width: 100%;
+    height: 35%;
+    position:absolute;
+    top:56%;
+    text-overflow: ellipsis;
+    color: #333;
+}
+#text2 li a .xiangg .kuaixian{
+    dispaly:inline-block;
+    font-size:12px;
+    width:97%;
+    height:60%;
+    line-height:100%;
+    position:absolute;
+    top:18%;
+    left:3%;
+    color:#ccc;
+    text-align:center;
+}
+#text2 li a .xiangg .kuaixian h4{
+    text-align:center;
+    color: #8f8f94;
+}
+#text2 li a .xiangg .kuaixian p{
+    width:100%;
+    height:50%;
+    line-height:100%;
+    font-size:12px;
+    position:absolute;
+    top:71%;
+    left:0%;
+    text-align:left;
+    color: #ccc;
+}
+/* 中间部分 */
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* 底部start */
+#footer{
     bottom: 0;
     display: table;
     width: 100%;
-    height: 4.64rem;
-    height: 62px;
+    /* height: 4.64rem; */
+    height: 0px;
     padding: 0;
     table-layout: fixed;
     border-top: 0;
@@ -351,21 +395,7 @@ ul,ol{list-style:none;}
     box-shadow: 0 0 1px rgba(225, 225, 225, .85);
     background-color:#eeeeed;
 }
-#footer ul{
-    width: 100%;
-    height:100%;
-}
-#footer ul li{
-    width: 25%;
-    height:100%;
-    padding: 5px;
-    background: #fff;
-    border-top: 1px solid #f5f5f5;
-    float: left;
-    text-align: center;
-    font-size: 13px;
-}
-#footer ul li .mui-active {
+.mui-bar-tab .mui-tab-item.mui-active {
     color:#118840;
 }
 /* 底部end */
@@ -381,4 +411,10 @@ ul,ol{list-style:none;}
 }
 .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
     color: #929292;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color:rgba(225,255,225,0);
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
 }

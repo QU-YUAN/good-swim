@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>专题</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="../css/mui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- 引入的网页样式 -->
+    <link rel="stylesheet" href="../css/20zt.css">
+    <!-- /// -->
+    
+</head>
+<body>
+    <div id="contioner">
+        <div>
+            <!-- 主页面标题start -->
+           <header id="header" class="mui-bar mui-bar-nav">
+               <a id="dinwei" class="mui-icon mui-action-menu mui-icon glyphicon glyphicon-menu-left" href="#offCanvasSide">
+               </a>
+               <h1 class="mui-title">专题</h1>
+           </header>
+             <!-- 主页面标题end -->
+        </div> 
+        <div>            
+            <div id="content" class="mui-scroll">
+                <!-- 主页面标题end -->
+                <!-- ====================================================================================================================================================================== -->
+                <!-- 中间部分start------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+                <!-- 主页面内容容器 -->
+                <ul class="mui-table-view" id="text">
+                	<li class="mui-table-view-cell mui-media">
+                		<a class="a1" href="javascript:;">
+                			<div class="media-body">
+                				<h3>浪漫蓝</h3>
+                				<p class="ellipsis">从未见过如此萌动的海水，好似一块可人的<br>果冻，潜水或是鸟瞰，你只想投生其中。</p>
+                			</div>
+                		</a>
+                	</li>
+                    <li class="mui-table-view-cell mui-media">
+                    	<a class="a2" href="javascript:;">
+                    		<div class="media-body">
+                    			<h3>果敢绿</h3>
+                    			<p class="ellipsis">自由而勇敢的人啊，加速度前行，在深深浅浅<br>的绿意中，体会前所未有的速度与激情！</p>
+                    		</div>
+                    	</a>
+                    </li>
+                	<li class="mui-table-view-cell mui-media">
+                		<a class="a3" href="javascript:;">
+                			<div class="media-body">
+                				<h3>惬意红</h3>
+                				<p class="ellipsis">玫瑰色的夕阳映在每一个人的脸上，红润可爱。<br>鲜美的螃蟹，热情的人，生活惬意而美好。</p>
+                			</div>
+                		</a>
+                	</li>
+                	<li class="mui-table-view-cell mui-media">
+                		<a class="a4" href="javascript:;">
+                			<div class="media-body">
+                				<h3>磅礴黑</h3>
+                				<p class="ellipsis">塞班的磅礴之美，与心境想通。这里有说不完<br>的故事，让你忍不住前往探寻、发现。</p>
+                			</div>
+                		</a>
+                	</li>
+                </ul>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+           <!-- 中间部分end------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+          <!-- ====================================================================================================================================================================== --> 
+        </div>
+    
+        
+    </div>
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>    
+    <script src="../js/mui.js"></script>
+    <script type="text/javascript">
+        mui.init()
+        function changeView(id){
+            var view =plus.webview.getWebviewById(id);
+            view.show();
+        }
+        mui.init({
+            subpages:[{
+                url:'index-con'
+            }]
+        })
+    </script>
+</body>
+
+</html>
